@@ -1,5 +1,5 @@
-body {
-    background: cadetblue !important;
+/* body {
+    background: cadetblue;
 }
 .heading {
     padding: 25px 25px 10px;
@@ -8,13 +8,17 @@ body {
 .heading h1 {
     color: whitesmoke;
 }
-.d-grid gap-2 button.btn.btn-primary {
+.d-grid gap-2 .btn-light {
+    text-align: left !important;
+    padding: 10px 15px 10px 30px;
+}
+.button.btn.btn-light {
     width: 100%;
     margin: 15px 0px;
-    padding: 5px 25px;
-    text-align: left !important;
     
 }
-/* .d-grid gap-2.btn {
+li.ques {
     text-align: left !important;
-} */
+    /* padding: 15px 15px 15px 15px; */
+    margin: 0px 17px 5px;
+}  */
