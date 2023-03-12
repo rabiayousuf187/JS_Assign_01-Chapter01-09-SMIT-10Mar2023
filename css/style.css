@@ -1,3 +1,13 @@
+body {
+    background: cadetblue !important;
+}
+.heading {
+    padding: 25px 25px 10px;
+    color: whitesmoke;
+}
+.heading h1 {
+    color: whitesmoke;
+}
 .d-grid gap-2 button.btn.btn-primary {
     width: 100%;
     margin: 15px 0px;
