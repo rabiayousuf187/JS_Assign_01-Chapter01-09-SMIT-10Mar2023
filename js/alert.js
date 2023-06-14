@@ -46,7 +46,6 @@ function ques6(){
         
         url = url+ "task_6/index.html";
         console.log("complete URL ======", url);
-        // let url = window.location.host + "/task_6/index.html";
         window.open(url,"_blank");
 }
 function ques7(){
@@ -58,6 +57,5 @@ function ques7(){
         
         url = url + "task_7/index.html";
         console.log("window.locatio host======", url);
-
         window.open(url,"_blank");
 }
