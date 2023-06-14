@@ -38,13 +38,15 @@ function ques5(){
 
 }
 function ques6(){
+        console.log("window.location======", window.origin);
         console.log("window.location======", window.location);
-        let url = "/task_6/index.html";
+        let url = window.origin + "/task_6/index.html";
         // let url = window.location.host + "/task_6/index.html";
         console.log("window.locatio host======", url);
         window.open(url,"_blank");
 }
 function ques7(){
+        console.log("window.location======", window.location);
         console.log("window.location======", window.location);
         let url = "/task_7/index.html";
         // let url = window.location.host + "/task_7/index.html";
