@@ -56,7 +56,7 @@ function ques7(){
         let url = window.location.href.slice(0, window.location.href.indexOf('pages'));
         console.log("window.href split ======", url);
         
-        url = url + "/task_7/index.html";
+        url = url + "task_7/index.html";
         console.log("window.locatio host======", url);
 
         window.open(url,"_blank");
