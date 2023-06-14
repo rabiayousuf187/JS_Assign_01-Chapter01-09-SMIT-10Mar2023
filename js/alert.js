@@ -39,10 +39,9 @@ function ques5(){
 }
 function ques6(){
         console.log("window.href======", window.location.href);
-        console.log("window.location======", window.location);
+        console.log("wwindow.location.href.indexOf('pages') ======", window.location.href.indexOf('pages'));
         
         let url = window.location.href.slice(0, window.location.href.indexOf('pages'));
-        console.log("wwindow.location.href.indexOf('pages') ======", window.location.href.indexOf('pages'));
         console.log("window.href split ======", url);
         
         url = url+ "task_6/index.html";
@@ -51,10 +50,14 @@ function ques6(){
         window.open(url,"_blank");
 }
 function ques7(){
-        console.log("window.location======", window.location);
-        console.log("window.location======", window.location);
-        let url = "/task_7/index.html";
-        // let url = window.location.host + "/task_7/index.html";
+        console.log("window.href======", window.location.href);
+        console.log("wwindow.location.href.indexOf('pages') ======", window.location.href.indexOf('pages'));
+        
+        let url = window.location.href.slice(0, window.location.href.indexOf('pages'));
+        console.log("window.href split ======", url);
+        
+        url = url + "/task_7/index.html";
         console.log("window.locatio host======", url);
+
         window.open(url,"_blank");
 }
